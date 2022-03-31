@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div class="screen">
+        <video class="player__video" src="https://storage.googleapis.com/web-dev-assets/video-and-source-tags/chrome.mp4"></video>
+        <div class="remote">
+            <button class="play">
+                <i class="bx bx-play"></i>
+            </button>
+            <p class="time"></p>
+            <div class="process">
+                <div class="progress"></div>
+            </div>
+            <button data-skip="-10" class="player__button">« 10s</button>
+            <button data-skip="10" class="player__button">10s »</button>
+            <div class="sound">
+                <i class="bx bxs-volume-full"></i>
+                <input type="range" name="" id="volume" min="0" max="100">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

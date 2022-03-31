@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: brown;
+}
+button{
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#screen{
+    width: 400px;
+    height:550px;
+    background-color: gray;
+    top:20px;
+    margin: auto;
+    position:relative;
+    border-radius: 8px;
+    padding: 10px;
+}
+#result{
+    padding: 10px;
+    margin: 10px auto;
+    width: 350px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bold;
+    font-size:larger;
+}
+#keyboard{
+    height: 300px;
+    text-align: center;
+}
+
+

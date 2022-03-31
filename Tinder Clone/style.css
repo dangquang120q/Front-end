@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 200vh;
+}
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0)),url(img/background.png) no-repeat center/cover;
+}
+.nav_bar{
+    position:sticky;
+    top:0;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 3%;
+}
+.products, .learn, .safety, .support, .language{
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 3%;
+}
+.download{
+    cursor: pointer;
+    margin-right: 40%;
+}
+.language{
+    font-size: 15px;
+}
+.login{
+    font-size: 30px;
+}
+.login_btn{
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    font-size: 23px;
+    color:crimson;
+    border-radius: 5px;
+}
+.swipe{
+    cursor:default;
+    color:white;
+    font-size: 8rem;
+    font-weight: 750;
+    align-items: center;
+    text-align: center;
+    margin-top: 13%;
+}
+.create{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+}
+.create_btn{
+    cursor: pointer;
+    font-size: 15px;
+    width: 250px;
+    height: 55px;
+    background:linear-gradient( to right, orchid,orangered);
+    color: white;
+    border-radius: 15px;
+    border:none;
+    outline: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.comment{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box{
+    width: 28%;
+    height: 300px;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+    outline:1px solid gray;
+}
+.others{
+    margin-top: 40px;
+    padding-left: 8%;
+    padding-right: 25%;
+    display: flex;
+}
+.legal,.careers{
+    margin-right: 11%;
+}
+.social{
+    width: 25%;
+    margin-right: 10%;
+}
+h4{
+    margin-bottom: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+h2{
+    cursor: default;
+    margin-bottom: 20px;
+}
+i{
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 5%;
+}
+.downapp{
+    margin-top: 10px;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+.text{
+    line-height: 20px;
+    font-size: 13.6px;
+    color: grey;
+}

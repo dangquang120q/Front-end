@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(145deg, #a4508b, #5f0a87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.box{
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border: 3px solid black
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.target{
+    width: 100%;
+    height: 100%;
+    background-image: url("/Image\ Gallery/img/NH.jpg");
+}
+.dragging{
+    border:5px solid white;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+.container{
+    margin: 200px auto;
+}
+h1{
+    font-size: 70px;
+    font-family: monospace;
+    color: #96ee1c;
+    overflow: hidden;
+    animation:typing 10s steps(30) infinite, blink 1s infinite;
+    text-shadow: 0 0 100px #96ee1c;
+    white-space: nowrap;
+}
+
+@keyframes typing{
+    0%,
+    100%{
+      width: 0%;  
+    }
+    70%,
+    90%{
+        width: 100%;
+    }
+}
+
+@keyframes blink{
+    0%,100%{
+        border-right: 10px solid transparent;
+    }
+    50%{
+        border-right: 10px solid #96ee1c;
+    }
+}

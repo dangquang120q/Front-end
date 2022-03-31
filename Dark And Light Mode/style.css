@@ -1,0 +1,124 @@
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #14f327;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #14f327;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(55px);
+    -ms-transform: translateX(55px);
+    transform: translateX(55px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+body{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    --primary-color: #0a6cf1;
+    --background-color: #eee;
+    --box-color: #dadada;
+    --text-color: #333;
+    background-color: var(--background-color);
+    font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h1{
+    color: var(--primary-color);
+}
+.container{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container h1{
+    font-size: 45px;
+}
+.main{
+    padding: 30px;
+    background-color:var(--box-color);
+    border-radius: 15px;
+}
+.main p{
+    text-align:left !important;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: var(--text-color);
+}
+.main a{
+    color: var(--background-color);
+    font-size: 20px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.dark{
+    --primary-color: #4daf54;
+    --background-color: #2d2c2d;
+    --box-color: #3b3a3b;
+    --text-color: #fff;
+}
